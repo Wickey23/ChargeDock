@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #54b4d3, #4ab29c);
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #fff;
+    color: #4ab29c;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.features {
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature {
+    flex: 1 1 200px;
+    max-width: 250px;
+}
+
+.pricing {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.pricing-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 6px;
+    flex: 1 1 200px;
+    max-width: 250px;
+}
+
+.plan.popular {
+    background-color: #54b4d3;
+    color: #fff;
+    border-color: #54b4d3;
+}
+
+.plan .price {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.contact {
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+}
